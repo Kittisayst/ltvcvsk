@@ -67,9 +67,9 @@ const AppHeader = () => {
                     className="w-10 h-10 mr-2"
                 />
                 {screenWidth > 600 ? (
-                    <div className="text-white text-xl font-bold">ເວັບໄຊພະແນກວິຊາການ</div>
+                    <div className="text-white text-xl font-bold">ເວັບໄຊ-ວຕວຫຼບ</div>
                 ) : (
-                    <div className="text-white text-lg font-bold">ພະແນກວິຊາການ</div>
+                    <div className="text-white text-lg font-bold">ວຕວຫຼບ</div>
                 )}
             </div>
             <div className="flex items-center">

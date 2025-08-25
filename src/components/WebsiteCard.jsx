@@ -36,7 +36,7 @@ const WebsiteCard = ({ websites, webTypes }) => {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = 'https://via.placeholder.com/300x160?text=ບໍ່ພົບຮູບພາບ';
+                      e.target.src = 'https://cdn-icons-png.flaticon.com/256/9261/9261076.png';
                     }}
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -49,13 +49,13 @@ const WebsiteCard = ({ websites, webTypes }) => {
                     >
                       ເບິ່ງ
                     </Button>
-                    <Button 
+                    {/* <Button 
                       icon={<HeartOutlined />}
                       className="ml-2"
                       ghost
                     >
                       ມັກ
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               }

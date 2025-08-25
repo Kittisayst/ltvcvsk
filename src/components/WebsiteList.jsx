@@ -20,7 +20,7 @@ const WebsiteList = ({ websites }) => {
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
                                     e.target.onerror = null;
-                                    e.target.src = 'https://via.placeholder.com/300x160?text=ບໍ່ພົບຮູບພາບ';
+                                    e.target.src = 'https://cdn-icons-png.flaticon.com/256/9261/9261076.png';
                                 }}
                             />
                         </div>
